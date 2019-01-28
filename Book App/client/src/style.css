@@ -1,0 +1,131 @@
+
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  background-color: white;
+}
+body main header img {
+  float: left;
+  padding: 0 5% 1rem 10%;
+}
+body main #book-form, body main #book-highlight, body main #book-list div, body main #favorites div {
+  margin: 0.5rem;
+  background-color: white;
+  border-bottom: 0.3rem solid cadetblue;
+
+}
+body main #favorites div {
+  border-bottom: 0.3rem solid #dcdf5e;
+}
+body main #book-form {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0 1.25rem 2%;
+}
+body main #book-form form {
+  clear: both;
+}
+body main #book-form select, body main #book-form input[type="submit"] {
+  background: cadetblue;
+  color: #fff;
+  text-shadow: 1px 1px 1px #212121;
+  width: 22.5%;
+}
+body main #book-form select {
+  height: 49px;
+  padding-left: 1%;
+  box-shadow: none;
+  border-radius: 15px 0 0 15px;
+}
+body main #book-form option {
+  background: transparent;
+  color: #212121;
+}
+body main #book-form input[type="text"] {
+  width: 50%;
+  height: 45px;
+  padding-left: 0.5rem;
+}
+body main #book-form input[type="submit"] {
+  height: 50px;
+  border-radius: 0 15px 15px 0;
+}
+body main #book-highlight {
+  margin-bottom: 1rem;
+}
+body main #book-highlight h2 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+
+}
+body main #book-highlight h3 {
+  padding-left: 0.25rem;
+}
+body main #book-highlight h3 span {
+  color: #212121;
+}
+body main #book-highlight span {
+  padding: 0.75rem;
+  color: #dcdf5e;
+}
+body main #book-highlight span span {
+  color: #757575;
+}
+body main #book-highlight p {
+  padding: 0.75rem;
+}
+body main #book-highlight p img {
+  float: left;
+  padding: 0 0.75rem 0.75rem 0;
+}
+body main #book-highlight div {
+  clear: both;
+}
+body main #book-highlight div span {
+  padding: 0.6rem;
+  color: #212121;
+}
+body main #book-highlight div span:nth-of-type(2) {
+  float: right;
+  margin-top: -0.6rem;
+}
+body main #book-highlight hr {
+  width: 90%;
+}
+body main #book-highlight div:nth-of-type(2) {
+  min-height: 50px;
+  padding-top: 20px;
+}
+
+body main #book-list, body main #favorites {
+  margin-bottom: 175px;
+}
+body main #book-list div, body main #favorites div {
+  min-height: 60px;
+  overflow: auto;
+  padding: 0.6rem;
+}
+
+body main #book-list div span:nth-of-type(2), body main #favorites div span:nth-of-type(2) {
+  float: right;
+}
+body main #app-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  width: 100vw;
+  padding-bottom: 0.5rem;
+  background: #212121;
+  color: #fff;
+}
+body main #app-nav span {
+  padding: 0 9%;
+}
+body main #app-nav a {
+  color: #fff;
+}
+
+body footer span {
+  float: right;
+}
